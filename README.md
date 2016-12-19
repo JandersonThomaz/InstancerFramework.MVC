@@ -6,6 +6,8 @@ The InstancerFramework serves to create instances of domain objects through the 
 
 # Example
 
+It is important to use __TryUpdateModel <Product> (product);__ To use the __ModelState.IsValid__
+
     public ActionResult Create(FormCollection formCollection)
     {
         Product product = Instance.NewInstance<Product>(formCollection);
@@ -22,3 +24,4 @@ The InstancerFramework serves to create instances of domain objects through the 
 
         return View(product);
     }
+    
