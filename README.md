@@ -1,5 +1,5 @@
 # InstancerFramework.MVC
-The InstancerFramework serves to create instances of domain objects through the ASP.NET MVC FormCollection
+The InstancerFramework.MVC is for creating instances of domain objects through ASP.NET MVC using FormCollection as a parameter.
 
 # Sintaxe
     Model model = Instance.NewInstance<Model>(formCollection);
