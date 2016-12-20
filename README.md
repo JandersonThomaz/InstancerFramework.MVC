@@ -1,8 +1,13 @@
 # InstancerFramework.MVC
 The InstancerFramework.MVC is for creating instances of domain objects through ASP.NET MVC using FormCollection as a parameter.
 
-# Sintaxe
+# Syntax
     Model model = Instance.NewInstance<Model>(formCollection);
+
+# Where can I get it?
+Install [InstancerFramework.MVC](https://www.nuget.org/packages/InstancerFramework.MVC) from the package manager console:
+
+    Install-Package InstancerFramework.MVC
 
 # Example
 
