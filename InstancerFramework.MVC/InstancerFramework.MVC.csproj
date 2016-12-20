@@ -7,8 +7,8 @@
     <ProjectGuid>{1755F919-DD43-418D-8A9F-A4742C284E7D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InstancerFramework</RootNamespace>
-    <AssemblyName>Instancer</AssemblyName>
+    <RootNamespace>InstancerFramework.MVC</RootNamespace>
+    <AssemblyName>InstancerFramework.MVC</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
